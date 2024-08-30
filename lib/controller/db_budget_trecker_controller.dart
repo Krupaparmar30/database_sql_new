@@ -47,8 +47,8 @@ class HomeController extends GetxController {
     await getRecords();
   }
   Future readDataLive(String value) async {
-    await DbHelper.dbHelper.readLiveData(value);
-    await getRecords();
+   data.value= await DbHelper.dbHelper.readLiveData(value);
+
   }
 
   Future updateRecords(
