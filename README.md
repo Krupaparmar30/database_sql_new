@@ -1,5 +1,13 @@
 # database_sql_new
 
+Description :-
+- The Budget Tracker is a simple application designed to help users manage their budget by recording, updating, deleting, and filtering transactions. Each transaction includes details - 
+- such as date, category, amount, and description.
+-  index (int): The index of the entry to be updated.
+- date (str, optional): The new date of the transaction.
+- category (str, optional): The new category of the transaction.
+- amount (float, optional): The new amount of the transaction.
+- description (str, optional): The new description of the transaction.
 A new Flutter project.
 # Insert ,Upadate,Delete
 <p>
